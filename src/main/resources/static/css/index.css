@@ -6,10 +6,11 @@ body{
 .quote{
     width: 50%;
     margin-top: 20%;
+    margin-left: 10%;
 }
 
 p{
     font-family: Helvetica Neue, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
 }
