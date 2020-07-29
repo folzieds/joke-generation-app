@@ -1,6 +1,6 @@
-package com.phos.jokegenerationapp.controller;
+package com.phos.jokegenerationapp.controllers;
 
-import com.phos.jokegenerationapp.service.JokeService;
+import com.phos.jokegenerationapp.services.JokeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class JokeController {
 
-    JokeService jokeService;
+    private JokeService jokeService;
 
     public JokeController(JokeService jokeService) {
         this.jokeService = jokeService;

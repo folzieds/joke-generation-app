@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"/>
         <title>Chuck Norris Jokes</title>
-        <link href="../static/css/index.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}"/>
     </head>
 
     <body>
-        <h1>Just for laughs</h1>
-        <p th:text="${joke}">A new Joke</p>
+        <div class="quote">
+            <p th:text="${joke}">A new Joke</p>
+        </div>
+
     </body>
 </html>
