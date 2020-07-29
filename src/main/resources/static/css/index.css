@@ -1,0 +1,12 @@
+body{
+    background-image: url("../img/chuck.jpg");
+    background-size: cover;
+}
+
+
+
+h1,p{
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    color: white;
+}
